@@ -40,9 +40,15 @@ export function App() {
 
             <Separator orientation="vertical" className="h-6" />
 
-            <Button variant="outline">
-              <Github className="w-4 h-4 mr-2" />
-              Github
+            <Button variant="outline" asChild>
+              <a
+                href="https://github.com/brenoharaujo2503/nlw-ai-mastery"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="w-4 h-4 mr-2" />
+                Github
+              </a>
             </Button>
           </div>
         </div>
